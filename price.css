@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(180, 223, 240);
+}
+header p{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  background-color: rgb(180, 223, 240);
+}
+.wash p{
+  text-align: left;
+  font-size: 30px;
+  color: black;
+  width: 300px;
+}
+table {
+  border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+  font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+  color: #000000; /* フォントの色を指定する */
+  width: 80%; /* テーブルの横幅を指定する */
+  }
+  td, th {
+  background-color: rgba(142, 234, 247, 0.3);/* 背景色を指定する */
+  text-align: center; /* インライン要素の位置を指定する */
+  padding: 3px; /* 要素の余白を指定する(上下左右) */
+  }
+  th {
+  background-color: #6fc0ee; /* 見出しの背景色を指定する */
+  }
+  .staff p{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    width: 500px;  
+  }
+  .carwash p{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    width: 500px; 
+  }
+  .car p{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    width: 500px;   
+  }
+
+  

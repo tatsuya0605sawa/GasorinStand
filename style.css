@@ -1,0 +1,1877 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgba(231, 244, 250, 0.952);
+}
+header {
+  background: #222222;
+  padding: 30px 20px;
+  color: white;
+  position: relative;
+}
+header h1{
+  padding: 30px 0px;
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  border-color: white;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+header h1 img{
+  width: 40px;
+  background-color: black;
+  color: white;
+}
+header p{
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px  15px;
+  height: 20px;
+  color: white;
+  font-size: 20px;
+  border-color: orange;
+  border-bottom: double;
+  margin: 0;
+}
+header nav{
+  text-align: right;
+  justify-content: space-between;
+  margin: 0 ;
+}
+header nav ul{
+  display: inline-flex;
+  background-color:  #DDDDDD;
+  max-width: 1024px;
+  font-weight: bold;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  line-height: 100px;
+  width: 100%;
+}
+header nav ul li{
+font-size: 25px;
+flex-grow: 1;
+align-items:center;
+}
+header nav ul li a{
+  color: black;
+}
+header nav ul li a:hover{
+  color: red;
+}
+header nav ul li+li{
+  border-left: 1px solid #000;
+}
+section {
+  background: skyblue;
+  display: block;
+  
+}
+section  h1{
+  font-size: 35px;
+  color: rgb(119, 116, 116);
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+section  iframe{
+  background: white;
+  color: white;
+  width: 100%;
+}
+main img{
+  width: 100%;
+}
+.wash {
+  padding-top: 20px ;
+}
+.wash p{
+  text-align:left ;
+  color: blue;
+  display:inline-block;
+  border-radius: 100px;
+  padding: 20px 20px;
+  font-size: 65px;
+  background-color: white;
+  transform:rotate(-5deg);
+}
+.wash h1{
+  text-align: center;
+  padding: 30px 20px;
+  color: rgb(59, 58, 58);
+  font-size:50px;
+}
+.wash .two{
+  text-align: center;
+}
+.wash .one{
+  text-align: center;
+}
+.wash .two img{
+  width: 500px;
+  display: inline-block;
+}
+.wash .three{
+  text-align: center;
+  padding: 50px 30px;
+}
+.wash .three h4{
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+.wash h2{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+}
+.wash .two h3{
+    margin: 10px;
+    padding: 5px;
+    background-color: skyblue;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+.wash .two h3::after {
+    content: "";
+    border-color: skyblue white white skyblue;
+    border-style: solid;
+    border-width: 0 0 24px 24px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+  }
+.menu {
+  color: white;
+  background: black;
+  padding: 300px 10px;
+}
+.menu p{
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 8px 8px 7px white;
+}
+.menu h1{
+  padding: 40px 30px;
+  text-align: center;
+  border-bottom: ridge;
+}
+.contact{
+  text-align: center;
+  padding: 50px 30px;
+}
+.contact p{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 8px 8px 7px black;
+}
+.contact h1{
+  padding: 50px 30px;
+}
+.contact table {
+  border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+  font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+  color: white; /* フォントの色を指定する */
+  width: 100%;
+  font-size: 30px; /* テーブルの横幅を指定する */
+  }
+  td, th {
+  border: 1px solid #000000; /* 境界線を実線で指定する */
+  background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+  text-align: center; /* インライン要素の位置を指定する */
+  padding: 5px; /* 要素の余白を指定する(上下左右) */
+  }
+  th {
+  background-color: #31A9EE; /* 見出しの背景色を指定する */
+  }
+.map {
+  text-align: center;
+}
+.map p{
+    padding: 30px 20px;
+    color: black;
+    text-shadow: 7px 7px 5px white;
+    font-size: 50px;
+}
+footer{
+  background:black;
+}
+footer p{
+  color: white;
+  font-size: 50px;
+}
+footer nav{
+  justify-content:space-between;
+  display:flex;
+  color: white;
+  font-size: 15px;
+  padding: 30px 20px;
+}
+footer nav ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+footer nav ul li a{
+  color: white;
+}
+footer nav li a:hover{
+  color: red;
+}
+footer nav img{
+  width: 200px ;
+}
+}
+@media screen and (max-width:1024px){
+  body{
+    background-color: skyblue;
+    width: 100%;
+  }
+  header {
+    background: #222222;
+    padding: 30px 20px;
+    color: white;
+    position: relative;
+  }
+  header h1{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    border-color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  header h1 img{
+    width: 40px;
+    background-color: black;
+    color: white;
+  }
+  header p{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px  15px;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+    border-color: orange;
+    border-bottom: double;
+    margin: 0;
+  }
+  header nav{
+    text-align: right;
+    justify-content: space-between;
+    margin: 0 ;
+  }
+  header nav ul{
+    display: inline-flex;
+    background-color:  #DDDDDD;
+    max-width: 1024px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    line-height: 100px;
+    width: 100%;
+  }
+  header nav ul li{
+  font-size: 25px;
+  flex-grow: 1;
+  align-items:center;
+  }
+  header nav ul li a{
+    color: black;
+  }
+  header nav ul li a:hover{
+    color: red;
+  }
+  header nav ul li+li{
+    border-left: 1px solid #000;
+  }
+  section {
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+  }
+  section  h1{
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  section  iframe{
+    background: white;
+    color: white;
+    height: 240px;
+    width: 450px;
+  }
+  main img{
+    width: 100%;
+  }
+  .wash {
+    padding-top: 20px ;
+  }
+  .wash p{
+    text-align:left ;
+    color: blue;
+    display:inline-block;
+    border-radius: 100px;
+    padding: 20px 20px;
+    font-size: 65px;
+    background-color: white;
+    transform:rotate(-5deg);
+  }
+  .wash h1{
+    text-align: center;
+    padding: 30px 20px;
+    color: red;
+    font-size:50px;
+  }
+  .wash .two{
+    text-align: center;
+  }
+  .wash .one{
+    text-align: center;
+  }
+  .wash .two img{
+    width: 500px;
+    display: inline-block;
+  }
+  .wash .three{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .wash .three h4{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+  .wash h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+  }
+  .wash .two h3{
+      margin: 10px;
+      padding: 5px;
+      background-color: skyblue;
+      color: #fff;
+      position: relative;
+      text-align: center;
+  }
+  .wash .two h3::after {
+      content: "";
+      border-color: skyblue white white skyblue;
+      border-style: solid;
+      border-width: 0 0 24px 24px;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  .menu {
+    color: white;
+    background: black;
+    padding: 300px 10px;
+  }
+  .menu p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 8px 8px 7px white;
+  }
+  .menu h1{
+    padding: 40px 30px;
+    text-align: center;
+    border-bottom: ridge;
+  }
+  .contact{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .contact p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .contact h1{
+    padding: 50px 30px;
+  }
+  .contact table {
+      border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+      font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+      color: white; /* フォントの色を指定する */
+      width: 100%;
+      font-size: 30px; /* テーブルの横幅を指定する */
+      }
+      td, th {
+      border: 1px solid #000000; /* 境界線を実線で指定する */
+      background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+      text-align: center; /* インライン要素の位置を指定する */
+      padding: 5px; /* 要素の余白を指定する(上下左右) */
+      }
+      th {
+      background-color: #31A9EE; /* 見出しの背景色を指定する */
+      }
+      
+  
+  .map {
+    text-align: center;
+  }
+  .map p{
+      padding: 30px 20px;
+      color: black;
+      text-shadow: 7px 7px 5px white;
+      font-size: 50px;
+  }
+  footer{
+    background:black;
+  }
+  footer p{
+    color: white;
+    font-size: 50px;
+  }
+  footer nav{
+    justify-content:space-between;
+    display:flex;
+    color: white;
+    font-size: 15px;
+    padding: 30px 20px;
+  }
+  footer nav ul{
+    list-style-type: none;
+    font-size: 20px;
+  }
+  footer nav ul li a{
+    color: white;
+  }
+  footer nav li a:hover{
+    color: red;
+  }
+  footer nav img{
+    width: 200px ;
+  }
+}
+@media screen and (max-width:1280px){
+body{
+  background-color: rgba(231, 244, 250, 0.952);
+}
+header {
+  background: #222222;
+  padding: 30px 20px;
+  color: white;
+  position: relative;
+}
+header h1{
+  padding: 30px 0px;
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  border-color: white;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+header h1 img{
+  width: 40px;
+  background-color: black;
+  color: white;
+}
+header p{
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px  15px;
+  height: 20px;
+  color: white;
+  font-size: 20px;
+  border-color: orange;
+  border-bottom: double;
+  margin: 0;
+}
+header nav{
+  text-align: right;
+  justify-content: space-between;
+  margin: 0 ;
+}
+header nav ul{
+  display: inline-flex;
+  background-color:  #DDDDDD;
+  max-width: 1024px;
+  font-weight: bold;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  line-height: 100px;
+  width: 100%;
+}
+header nav ul li{
+font-size: 25px;
+flex-grow: 1;
+align-items:center;
+}
+header nav ul li a{
+  color: black;
+}
+header nav ul li a:hover{
+  color: red;
+}
+header nav ul li+li{
+  border-left: 1px solid #000;
+}
+section {
+  background: skyblue;
+  display: block;
+  
+}
+section  h1{
+  font-size: 35px;
+  color: rgb(119, 116, 116);
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+section  iframe{
+  background: white;
+  color: white;
+  width: 100%;
+}
+main img{
+  width: 100%;
+}
+.wash {
+  padding-top: 20px ;
+}
+.wash p{
+  text-align:left ;
+  color: blue;
+  display:inline-block;
+  border-radius: 100px;
+  padding: 20px 20px;
+  font-size: 65px;
+  background-color: white;
+  transform:rotate(-5deg);
+}
+.wash h1{
+  text-align: center;
+  padding: 30px 20px;
+  color: rgb(59, 58, 58);
+  font-size:50px;
+}
+.wash .two{
+  text-align: center;
+}
+.wash .one{
+  text-align: center;
+}
+.wash .two img{
+  width: 500px;
+  display: inline-block;
+}
+.wash .three{
+  text-align: center;
+  padding: 50px 30px;
+}
+.wash .three h4{
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+.wash h2{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+}
+.wash .two h3{
+    margin: 10px;
+    padding: 5px;
+    background-color: skyblue;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+.wash .two h3::after {
+    content: "";
+    border-color: skyblue white white skyblue;
+    border-style: solid;
+    border-width: 0 0 24px 24px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+  }
+.menu {
+  color: white;
+  background: black;
+  padding: 300px 10px;
+}
+.menu p{
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 8px 8px 7px white;
+}
+.menu h1{
+  padding: 40px 30px;
+  text-align: center;
+  border-bottom: ridge;
+}
+.contact{
+  text-align: center;
+  padding: 50px 30px;
+}
+.contact p{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 8px 8px 7px black;
+}
+.contact h1{
+  padding: 50px 30px;
+}
+.contact table {
+  border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+  font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+  color: white; /* フォントの色を指定する */
+  width: 100%;
+  font-size: 30px; /* テーブルの横幅を指定する */
+  }
+  td, th {
+  border: 1px solid #000000; /* 境界線を実線で指定する */
+  background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+  text-align: center; /* インライン要素の位置を指定する */
+  padding: 5px; /* 要素の余白を指定する(上下左右) */
+  }
+  th {
+  background-color: #31A9EE; /* 見出しの背景色を指定する */
+  }
+.map {
+  text-align: center;
+}
+.map p{
+    padding: 30px 20px;
+    color: black;
+    text-shadow: 7px 7px 5px white;
+    font-size: 50px;
+}
+footer{
+  background:black;
+}
+footer p{
+  color: white;
+  font-size: 50px;
+}
+footer nav{
+  justify-content:space-between;
+  display:flex;
+  color: white;
+  font-size: 15px;
+  padding: 30px 20px;
+}
+footer nav ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+footer nav ul li a{
+  color: white;
+}
+footer nav li a:hover{
+  color: red;
+}
+footer nav img{
+  width: 200px ;
+}
+}
+@media screen and (max-width:1024px){
+  body{
+    background-color: skyblue;
+    width: 100%;
+  }
+  header {
+    background: #222222;
+    padding: 30px 20px;
+    color: white;
+    position: relative;
+  }
+  header h1{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    border-color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  header h1 img{
+    width: 40px;
+    background-color: black;
+    color: white;
+  }
+  header p{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px  15px;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+    border-color: orange;
+    border-bottom: double;
+    margin: 0;
+  }
+  header nav{
+    text-align: right;
+    justify-content: space-between;
+    margin: 0 ;
+  }
+  header nav ul{
+    display: inline-flex;
+    background-color:  #DDDDDD;
+    max-width: 1024px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    line-height: 100px;
+    width: 100%;
+  }
+  header nav ul li{
+  font-size: 25px;
+  flex-grow: 1;
+  align-items:center;
+  }
+  header nav ul li a{
+    color: black;
+  }
+  header nav ul li a:hover{
+    color: red;
+  }
+  header nav ul li+li{
+    border-left: 1px solid #000;
+  }
+  section {
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+  }
+  section  h1{
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  section  iframe{
+    background: white;
+    color: white;
+    height: 240px;
+    width: 450px;
+  }
+  main img{
+    width: 100%;
+  }
+  .wash {
+    padding-top: 20px ;
+  }
+  .wash p{
+    text-align:left ;
+    color: blue;
+    display:inline-block;
+    border-radius: 100px;
+    padding: 20px 20px;
+    font-size: 65px;
+    background-color: white;
+    transform:rotate(-5deg);
+  }
+  .wash h1{
+    text-align: center;
+    padding: 30px 20px;
+    color: red;
+    font-size:50px;
+  }
+  .wash .two{
+    text-align: center;
+  }
+  .wash .one{
+    text-align: center;
+  }
+  .wash .two img{
+    width: 500px;
+    display: inline-block;
+  }
+  .wash .three{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .wash .three h4{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+  .wash h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+  }
+  .wash .two h3{
+      margin: 10px;
+      padding: 5px;
+      background-color: skyblue;
+      color: #fff;
+      position: relative;
+      text-align: center;
+  }
+  .wash .two h3::after {
+      content: "";
+      border-color: skyblue white white skyblue;
+      border-style: solid;
+      border-width: 0 0 24px 24px;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  .menu {
+    color: white;
+    background: black;
+    padding: 300px 10px;
+  }
+  .menu p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 8px 8px 7px white;
+  }
+  .menu h1{
+    padding: 40px 30px;
+    text-align: center;
+    border-bottom: ridge;
+  }
+  .contact{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .contact p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .contact h1{
+    padding: 50px 30px;
+  }
+  .contact table {
+      border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+      font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+      color: white; /* フォントの色を指定する */
+      width: 100%;
+      font-size: 30px; /* テーブルの横幅を指定する */
+      }
+      td, th {
+      border: 1px solid #000000; /* 境界線を実線で指定する */
+      background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+      text-align: center; /* インライン要素の位置を指定する */
+      padding: 5px; /* 要素の余白を指定する(上下左右) */
+      }
+      th {
+      background-color: #31A9EE; /* 見出しの背景色を指定する */
+      }
+      
+  
+  .map {
+    text-align: center;
+  }
+  .map p{
+      padding: 30px 20px;
+      color: black;
+      text-shadow: 7px 7px 5px white;
+      font-size: 50px;
+  }
+  footer{
+    background:black;
+  }
+  footer p{
+    color: white;
+    font-size: 50px;
+  }
+  footer nav{
+    justify-content:space-between;
+    display:flex;
+    color: white;
+    font-size: 15px;
+    padding: 30px 20px;
+  }
+  footer nav ul{
+    list-style-type: none;
+    font-size: 20px;
+  }
+  footer nav ul li a{
+    color: white;
+  }
+  footer nav li a:hover{
+    color: red;
+  }
+  footer nav img{
+    width: 200px ;
+  }
+}
+@media screen and (max-width:768px){
+  body{
+    background-color: skyblue;
+    width: 100%;
+  }
+  header {
+    background: #222222;
+    padding: 30px 20px;
+    color: white;
+    position: relative;
+  }
+  header h1{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    border-color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  header h1 img{
+    width: 30px;
+    background-color: black;
+    color: white;
+  }
+  header p{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px  15px;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    border-color: orange;
+    border-bottom: double;
+    margin: 0;
+  }
+  header nav{
+    text-align: right;
+    justify-content: space-between;
+    margin: 0 ;
+  }
+  header nav ul{
+    display: inline-flex;
+    background-color:  #DDDDDD;
+    max-width: 1024px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    line-height: 100px;
+    width: 100%;
+  }
+  header nav ul li{
+  font-size: 25px;
+  flex-grow: 1;
+  align-items:center;
+  }
+  header nav ul li a{
+    color: black;
+  }
+  header nav ul li a:hover{
+    color: red;
+  }
+  header nav ul li+li{
+    border-left: 1px solid #000;
+  }
+  section {
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+  }
+  section  h1{
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  section  iframe{
+    background: white;
+    color: white;
+    height: 240px;
+    width: 350px;
+  }
+  main img{
+    width: 100%;
+  }
+  .wash {
+    padding-top: 20px ;
+  }
+  .wash p{
+    text-align:left ;
+    color: blue;
+    display:inline-block;
+    border-radius: 100px;
+    padding: 20px 20px;
+    font-size: 65px;
+    background-color: white;
+    transform:rotate(-5deg);
+  }
+  .wash h1{
+    text-align: center;
+    padding: 30px 20px;
+    color: red;
+    font-size:50px;
+  }
+  .wash .two{
+    text-align: center;
+  }
+  .wash .one{
+    text-align: center;
+  }
+  .wash .two img{
+    width: 500px;
+    display: inline-block;
+  }
+  .wash .three{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .wash .three h4{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+  .wash h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+  }
+  .wash .two h3{
+      margin: 10px;
+      padding: 5px;
+      background-color: skyblue;
+      color: #fff;
+      position: relative;
+      text-align: center;
+  }
+  .wash .two h3::after {
+      content: "";
+      border-color: skyblue white white skyblue;
+      border-style: solid;
+      border-width: 0 0 24px 24px;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  .menu {
+    color: white;
+    background: black;
+    padding: 300px 10px;
+  }
+  .menu p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 8px 8px 7px white;
+  }
+  .menu h1{
+    padding: 40px 30px;
+    text-align: center;
+    border-bottom: ridge;
+  }
+  .contact{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .contact p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .contact h1{
+    padding: 50px 30px;
+  }
+  .contact table {
+      border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+      font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+      color: white; /* フォントの色を指定する */
+      width: 100%;
+      font-size: 30px; /* テーブルの横幅を指定する */
+      }
+      td, th {
+      border: 1px solid #000000; /* 境界線を実線で指定する */
+      background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+      text-align: center; /* インライン要素の位置を指定する */
+      padding: 5px; /* 要素の余白を指定する(上下左右) */
+      }
+      th {
+      background-color: #31A9EE; /* 見出しの背景色を指定する */
+      }
+      
+  
+  .map {
+    text-align: center;
+  }
+  .map p{
+      padding: 30px 20px;
+      color: black;
+      text-shadow: 7px 7px 5px white;
+      font-size: 50px;
+  }
+  .map iframe{
+    width: 100%;
+  }
+  footer{
+    background:black;
+  }
+  footer p{
+    color: white;
+    font-size: 50px;
+  }
+  footer nav{
+    justify-content:space-between;
+    display:flex;
+    color: white;
+    font-size: 15px;
+    padding: 30px 20px;
+  }
+  footer nav ul{
+    list-style-type: none;
+    font-size: 20px;
+  }
+  footer nav ul li a{
+    color: white;
+  }
+  footer nav li a:hover{
+    color: red;
+  }
+  footer nav img{
+    width: 200px ;
+  }
+}
+@media screen and (max-width:540px){
+  body{
+    background-color: skyblue;
+    width: 100%;
+  }
+  header {
+    background: #222222;
+    padding: 30px 20px;
+    color: white;
+    position: relative;
+  }
+  header h1{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    border-color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  header h1 img{
+    width: 40px;
+    background-color: black;
+    color: white;
+  }
+  header p{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px  15px;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+    border-color: orange;
+    border-bottom: double;
+    margin: 0;
+  }
+  header nav{
+    text-align: right;
+    justify-content: space-between;
+    margin: 0 ;
+  }
+  header nav ul{
+    display: inline-flex;
+    background-color:  #DDDDDD;
+    max-width: 1024px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    line-height: 60px;
+    width: 100%;
+  }
+  header nav ul li{
+  font-size: 15px;
+  flex-grow: 1;
+  align-items:center;
+  }
+  header nav ul li a{
+    color: black;
+  }
+  header nav ul li a:hover{
+    color: red;
+  }
+  header nav ul li+li{
+    border-left: 1px solid #000;
+  }
+  section {
+    background: skyblue;
+    display: block;
+    
+  }
+  section  h1{
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  section  iframe{
+    background: white;
+    color: white;
+    height: 200px;
+    width: 500px;
+  }
+  main img{
+    width: 100%;
+  }
+  .wash {
+    padding-top: 20px ;
+  }
+  .wash p{
+    text-align:left ;
+    color: blue;
+    display:inline-block;
+    border-radius: 100px;
+    padding: 20px 20px;
+    font-size: 65px;
+    background-color: white;
+    transform:rotate(-5deg);
+  }
+  .wash h1{
+    text-align: center;
+    padding: 30px 20px;
+    color: red;
+    font-size:50px;
+  }
+  .wash .two{
+    text-align: center;
+  }
+  .wash .one{
+    text-align: center;
+  }
+  .wash .one img{
+    width: 100%;
+  }
+  .wash .two img{
+    width: 500px;
+    display: inline-block;
+  }
+  .wash .three{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .wash .three h4{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+  .wash h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+  }
+  .wash .two h3{
+      margin: 10px;
+      padding: 5px;
+      background-color: skyblue;
+      color: #fff;
+      position: relative;
+      text-align: center;
+  }
+  .wash .two h3::after {
+      content: "";
+      border-color: skyblue white white skyblue;
+      border-style: solid;
+      border-width: 0 0 24px 24px;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  .menu {
+    color: white;
+    background: black;
+    padding: 300px 10px;
+  }
+  .menu p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 8px 8px 7px white;
+  }
+  .menu h1{
+    padding: 40px 30px;
+    text-align: center;
+    border-bottom: ridge;
+  }
+  .contact{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .contact p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .contact h1{
+    padding: 50px 30px;
+  }
+  .contact table {
+      border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+      font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+      color: white; /* フォントの色を指定する */
+      width: 100%;
+      font-size: 30px; /* テーブルの横幅を指定する */
+      }
+      td, th {
+      border: 1px solid #000000; /* 境界線を実線で指定する */
+      background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+      text-align: center; /* インライン要素の位置を指定する */
+      padding: 5px; /* 要素の余白を指定する(上下左右) */
+      }
+      th {
+      background-color: #31A9EE; /* 見出しの背景色を指定する */
+      }
+      
+  
+  .map {
+    text-align: center;
+  }
+  .map p{
+      padding: 30px 20px;
+      color: black;
+      text-shadow: 7px 7px 5px white;
+      font-size: 50px;
+  }
+  footer{
+    background:black;
+  }
+  footer p{
+    color: white;
+    font-size: 50px;
+  }
+  footer nav{
+    justify-content:space-between;
+    display:flex;
+    color: white;
+    font-size: 15px;
+    padding: 30px 20px;
+  }
+  footer nav ul{
+    list-style-type: none;
+    font-size: 20px;
+  }
+  footer nav ul li a{
+    color: white;
+  }
+  footer nav li a:hover{
+    color: red;
+  }
+  footer nav img{
+    width: 200px ;
+  }
+}
+@media screen and (max-width:480px) {
+  body{
+    background-color: skyblue;
+    width: 100%;
+  }
+  header {
+    background: #222222;
+    padding: 30px 20px;
+    color: white;
+    position: relative;
+  }
+  header h1{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    border-color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  header h1 img{
+    width: 40px;
+    background-color: black;
+    color: white;
+  }
+  header p{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px  15px;
+    height: 20px;
+    color: white;
+    font-size: 10px;
+    border-color: orange;
+    border-bottom: double;
+    margin: 0;
+  }
+  header nav{
+    text-align: right;
+    justify-content: space-between;
+    margin: 0 ;
+  }
+  header nav ul{
+    display: inline-flex;
+    background-color:  #DDDDDD;
+    max-width: 1024px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    line-height: 60px;
+    width: 100%;
+  }
+  header nav ul li{
+  font-size: 15px;
+  flex-grow: 1;
+  align-items:center;
+  }
+  header nav ul li a{
+    color: black;
+  }
+  header nav ul li a:hover{
+    color: red;
+  }
+  header nav ul li+li{
+    border-left: 1px solid #000;
+  }
+  section {
+    background: skyblue;
+    display: block;
+    
+  }
+  section  h1{
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  section  iframe{
+    background: white;
+    color: white;
+    height: 200px;
+    width: 450px;
+  }
+  main img{
+    width: 100%;
+  }
+  .wash {
+    padding-top: 20px ;
+  }
+  .wash p{
+    text-align:left ;
+    color: blue;
+    display:inline-block;
+    border-radius: 100px;
+    padding: 20px 20px;
+    font-size: 65px;
+    background-color: white;
+    transform:rotate(-5deg);
+  }
+  .wash h1{
+    text-align: center;
+    padding: 30px 20px;
+    color: red;
+    font-size:40px;
+  }
+  .wash .two{
+    text-align: center;
+  }
+  .wash .one{
+    text-align: center;
+  }
+  .wash .one img{
+    width: 100%;
+  }
+  .wash .two img{
+    width: 100%;
+    display: inline-block;
+  }
+  .wash .three{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .wash .three h4{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+  .wash h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+  }
+  .wash .two h3{
+      margin: 10px;
+      padding: 5px;
+      background-color: skyblue;
+      color: #fff;
+      position: relative;
+      text-align: center;
+  }
+  .wash .two h3::after {
+      content: "";
+      border-color: skyblue white white skyblue;
+      border-style: solid;
+      border-width: 0 0 24px 24px;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  .menu {
+    color: white;
+    background: black;
+    padding: 300px 10px;
+  }
+  .menu p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 8px 8px 7px white;
+  }
+  .menu h1{
+    padding: 40px 30px;
+    text-align: center;
+    border-bottom: ridge;
+  }
+  .contact{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .contact p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .contact h1{
+    padding: 50px 30px;
+  }
+  .contact table {
+      border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+      font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+      color: white; /* フォントの色を指定する */
+      width: 100%;
+      font-size: 20px; /* テーブルの横幅を指定する */
+      }
+      td, th {
+      border: 1px solid #000000; /* 境界線を実線で指定する */
+      background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+      text-align: center; /* インライン要素の位置を指定する */
+      padding: 5px; /* 要素の余白を指定する(上下左右) */
+      }
+      th {
+      background-color: #31A9EE; /* 見出しの背景色を指定する */
+      }
+      
+  
+  .map {
+    text-align: center;
+  }
+  .map p{
+      padding: 30px 20px;
+      color: black;
+      text-shadow: 7px 7px 5px white;
+      font-size: 50px;
+  }
+  footer{
+    background:black;
+  }
+  footer p{
+    color: white;
+    font-size: 40px;
+  }
+  footer nav{
+    justify-content:space-between;
+    display:flex;
+    color: white;
+    font-size: 15px;
+    padding: 30px 20px;
+  }
+  footer nav ul{
+    list-style-type: none;
+    font-size: 20px;
+  }
+  footer nav ul li a{
+    color: white;
+  }
+  footer nav li a:hover{
+    color: red;
+  }
+  footer nav img{
+    width: 200px ;
+  }
+}
+@media screen and (max-width:390px){
+  body{
+    background-color: skyblue;
+    width: 100%;
+  }
+  header {
+    background: #222222;
+    padding: 30px 20px;
+    color: white;
+    position: relative;
+  }
+  header h1{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    border-color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  header h1 img{
+    width: 40px;
+    background-color: black;
+    color: white;
+  }
+  header p{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px  15px;
+    height: 20px;
+    color: white;
+    font-size: 8px;
+    border-color: orange;
+    border-bottom: double;
+    margin: 0;
+  }
+  header nav{
+    text-align: right;
+    justify-content: space-between;
+    margin: 0 ;
+  }
+  header nav ul{
+    display: inline-flex;
+    background-color:  #DDDDDD;
+    max-width: 1024px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    line-height: 30px;
+    width: 100%;
+  }
+  header nav ul li{
+  font-size: 10px;
+  flex-grow: 1;
+  align-items:center;
+  }
+  header nav ul li a{
+    color: black;
+  }
+  header nav ul li a:hover{
+    color: red;
+  }
+  header nav ul li+li{
+    border-left: 1px solid #000;
+  }
+  section {
+    background: skyblue;
+    display: block;
+    
+  }
+  section  h1{
+    font-size: 25px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  section  iframe{
+    background: white;
+    color: white;
+    height: 150px;
+    width: 290px;
+  }
+  main img{
+    width: 100%;
+  }
+  .wash {
+    padding-top: 20px ;
+  }
+  .wash p{
+    text-align:left ;
+    color: blue;
+    display:inline-block;
+    border-radius: 80px;
+    padding: 20px 20px;
+    font-size: 35px;
+    background-color: white;
+    transform:rotate(-5deg);
+  }
+  .wash h1{
+    text-align: center;
+    padding: 30px 20px;
+    color: red;
+    font-size:25px;
+  }
+  .wash .two{
+    text-align: center;
+  }
+  .wash .one{
+    text-align: center;
+  }
+  .wash .one img{
+    width: 100%;
+  }
+  .wash .two img{
+    width: 100%;
+    display: inline-block;
+  }
+  .wash .three{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .wash .three h4{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+  .wash h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+  }
+  .wash .two h3{
+      margin: 10px;
+      padding: 5px;
+      background-color: skyblue;
+      color: #fff;
+      position: relative;
+      text-align: center;
+      font-size: 13px;
+  }
+  .wash .two h3::after {
+      content: "";
+      border-color: skyblue white white skyblue;
+      border-style: solid;
+      border-width: 0 0 24px 24px;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  .menu {
+    color: white;
+    background: black;
+    padding: 300px 10px;
+  }
+  .menu p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 8px 8px 7px white;
+  }
+  .menu h1{
+    padding: 40px 30px;
+    text-align: center;
+    border-bottom: ridge;
+  }
+  .contact{
+    text-align: center;
+    padding: 50px 30px;
+  }
+  .contact p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .contact h1{
+    padding: 50px 30px;
+    font-size: 12px;
+  }
+  .contact table {
+      border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+      font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+      color: white; /* フォントの色を指定する */
+      width: 100%;
+      font-size: 12px; /* テーブルの横幅を指定する */
+      }
+      td, th {
+      border: 1px solid #000000; /* 境界線を実線で指定する */
+      background-color: rgba(0,0,0,0.3);/* 背景色を指定する */
+      text-align: center; /* インライン要素の位置を指定する */
+      padding: 5px; /* 要素の余白を指定する(上下左右) */
+      }
+      th {
+      background-color: #31A9EE; /* 見出しの背景色を指定する */
+      }
+      
+  
+  .map {
+    text-align: center;
+  }
+  .map p{
+      padding: 30px 20px;
+      color: black;
+      text-shadow: 7px 7px 5px white;
+      font-size: 50px;
+  }
+  footer{
+    background:black;
+  }
+  footer p{
+    color: white;
+    font-size: 25px;
+  }
+  footer nav{
+    justify-content:space-between;
+    display:flex;
+    color: white;
+    font-size: 12px;
+    padding: 30px 20px;
+  }
+  footer nav ul{
+    list-style-type: none;
+    font-size: 12px;
+  }
+  footer nav ul li a{
+    color: white;
+  }
+  footer nav li a:hover{
+    color: red;
+  }
+  footer nav img{
+    width: 80px ;
+  }
+}

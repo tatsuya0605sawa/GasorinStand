@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+@media screen and (max-width:324px){ 
+body p{
+    font-size: 10px;
+}
+body p a{
+    font-size: 10px;
+}
+}

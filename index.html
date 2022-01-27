@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>JAドリーム福崎給油所</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <meta name="viewport"content="width=320,height=480,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes" />
+  </head>
+  <body>
+    <header>
+      <h1>JAドリーム福崎給油所<img src="img/ガソリンスタンドアイコン2.jpeg" alt="給油のアイコン"></h1>
+      <p>|株式会社JA　ドリーム|福崎SS|ガソリンスタンド|Keeper認定店|兵庫県|神崎郡|福崎町</p>
+      <nav>
+        <ul>
+        <li><a href="http://tasa65.html.xdomain.jp/">HOME</a></li>
+        <li><a href="http://www.ja-hyogonishi.com/service/life/dream.html">会社情報</a></li>
+        <li><a href="#">社員紹介</a></li>
+        <li><a href="price.html">各種料金</a></li>
+        <li><a href="https://www.keepercoating.jp/proshop/hyogo/city1347/07827/">Keeper</a></li>
+        <li><a href="https://www.instagram.com/ja_fukusaki/">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img id="mypic" src="img/福崎外観.jpg" width="400" height="750">
+    <script>
+    var pics_src = new Array("img/福崎外観.jpg","img/keeper.JPG","img/price.JPG","img/外観2.jfif");
+    var num = -1;
+
+    slideshow_timer();
+
+    function slideshow_timer(){
+        if (num == 3){
+            num = 0;
+        }
+        else {
+            num ++;
+        }
+        document.getElementById("mypic").src=pics_src[num];
+        setTimeout("slideshow_timer()",5000);
+    }
+    </script>
+      <section >
+        <div class="new">
+          <h1>新着情報</h1>
+          <iframe src="news.html" >
+          </iframe>
+        </div>
+        <div class="keeper">
+          <h1>keeper情報</h1>
+          <iframe src="keeper情報.html" >
+          </iframe>
+        </div>
+      </section>
+  <aside class="menu">
+    <p>BEST SERVICE</p>
+    <h1>最高の、福崎SSにしかできない、サービスがここに存在する</h1>
+  </aside>
+  </main>
+  <aside class="wash">
+    <p>keeper洗車!!</p>
+    <h1>今年からキーパー洗車始めました！！！</h1>
+    <div class="two">
+      <h3>現在、資格保持者が一名在籍しております
+        <br>下記に記載している、割引もあります。
+        <br>車の艶を戻したい・洗車を楽にしたい
+        <br>など思っている方ぜひ、ご連絡下ください！
+      </h3>
+      <img src="img/keeperprice.jpg" alt="">
+      <img src="img/newcar.png" alt="">
+    </div>
+    <div class="three">
+      <h2>WEBでのご予約はこちらまで</h2>
+      <h4>☟</h4>
+    </div>
+    <div class="one">
+      <a href="https://www.keepercoating.jp/proshop/hyogo/city1347/07827">
+        <img src="img/gazo.jpg" alt="">
+      </a>
+    </div>
+  </aside>
+  <aside class="contact">
+    <p>SERVICE</p>
+    <h1>何か困ったことがあれば、お気軽にご連絡ください
+    <br>洗車・コーティングのご予約もお待ちしています。</h1>
+    <table>
+      <tr>
+        <td>
+          所在地
+        </td>
+        <td>
+          兵庫県神崎郡福崎町西治495-1 
+        </td>
+      </tr>
+      <tr>
+        <td>
+          電話番号
+        </td>
+        <td>
+          0790-22-0751
+        </td>
+      </tr>
+      <tr>
+        <td>
+          営業時間
+        </td>
+        <td>
+          7：00~21：00
+        </td>
+      </tr>
+      <tr>
+        <td>
+          洗車時間
+        </td>
+        <td>
+          9：00~17：30
+        </td>
+      </tr>
+      <tr>
+        <td>
+          休日
+        </td>
+        <td>
+          無
+        </td>
+      </tr>
+    </table>
+  </aside>
+  <aside class="map">
+    <p>SERVICE STATION</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.119901387848!2d134.73970231472495!3d34.95360337713997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35552328a3767d87%3A0x7f38a8bf06cd1b1d!2zSkEtU1Mg56aP5bSOIFNTIChKQeODieODquODvOODoCk!5e0!3m2!1sja!2sjp!4v1637240737234!5m2!1sja!2sjp" width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </aside>
+  <footer>
+    <p>JAドリーム福崎給油所</p>
+    <nav>
+      <ul>
+        <li><a href="http://www.ja-hyogonishi.com/service/life/dream.html">会社情報</a></li>
+        <li><a href="#">社員紹介</a></li>
+        <li><a href="#">サービス一覧</a></li>
+        <li><a href="price.html">洗車料金</a></li>
+        <li><a href="https://www.keepercoating.jp/proshop/hyogo/city1347/07827/">keeper概要</a></li>
+        <li><a href="https://www.instagram.com/ja_fukusaki/">お問い合わせ</a></li>
+        <li><a href="#">詳細情報</a></li>
+      </ul>
+      <img src="img/乗用車のアイコン素材1.jpeg" alt="">
+    </nav>
+  </footer>
+  </body>
+  </html>
